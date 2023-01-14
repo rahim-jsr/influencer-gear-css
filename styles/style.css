@@ -28,7 +28,7 @@ nav {
   align-items: center;
   color: var(--black);
 }
-.brand-name {
+.title {
   font-size: 1.5rem;
   font-weight: 700;
 }
@@ -141,11 +141,39 @@ header {
   color: #fb8200;
 }
 .rating span {
-  
   color: var(--black);
 }
 .short-description {
   color: var(--black);
 }
-
+.see-more {
+  text-align: right;
+  margin-top: 50px;
+}
+.see-more-products-btn {
+  color: var(--pink);
+  background-color: white;
+  cursor: pointer;
+}
 /* popular collection styles end  */
+.featured-products {
+  max-width: 1110px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.featured-products p {
+  width: 500px;
+  margin: 16px 0;
+}
+.featured-products img {
+  width: 500px;
+}
+.featured-title {
+  font-size: 2.375rem;
+}
+.featured-producs-btn {
+  padding: 10px 24px;
+}
