@@ -86,10 +86,9 @@ header {
 }
 .header-img {
   text-align: right;
-  background-image: url("../assrts/images/Circle\ design.svg");
+  background-image: url("../assets/images/Circle\ design.svg");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-position: right;
   /* background-position: center; */
 }
 .header-img img {
@@ -206,3 +205,39 @@ header {
   gap: 16px;
 }
 /* footer section styles end */
+
+/* Media Queries */
+
+/* mobile device  */
+@media only screen and (max-width: 576px) {
+  /* nav section style start */
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menus {
+    gap: 0;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  /* nav section style end */
+  /* header section styles start  */
+  .header {
+    flex-direction: column-reverse;
+  }
+  .header-content {
+    text-align: center;
+  }
+  .header img {
+    width: 202px;
+    height: 190px;
+  }
+  /* header section styles end  */
+  footer,
+  section,
+  .popular-collection,
+  .sponsor-companies,
+  .featured-products {
+    display: none;
+  }
+}
