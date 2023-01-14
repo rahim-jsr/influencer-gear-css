@@ -95,3 +95,56 @@ header {
   height: 414px;
 }
 /* header section styles end  */
+/* sponsor companies styles start */
+.sponsor-companies {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* sponsor companies styles end  */
+/* popular collection styles start  */
+
+.popular-collection-title {
+  padding: 100px 0 30px 0;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1047px;
+  width: 100%;
+  margin: 0 auto;
+}
+.product {
+  max-width: 329px;
+  padding: 17px 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px 0px #00000026;
+}
+.product-name {
+  font-size: 28px;
+  font-weight: 500;
+}
+.product-price {
+  font-size: 24px;
+  font-weight: 400;
+}
+.rating {
+  padding: 5px;
+  margin-bottom: 3px;
+}
+.rating i {
+  color: #fb8200;
+}
+.rating span {
+  color: var(--black);
+}
+.short-description {
+  color: var(--black);
+}
+
+/* popular collection styles end  */
