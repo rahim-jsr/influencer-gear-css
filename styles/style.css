@@ -141,6 +141,7 @@ header {
   color: #fb8200;
 }
 .rating span {
+  
   color: var(--black);
 }
 .short-description {
