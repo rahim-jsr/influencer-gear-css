@@ -179,6 +179,7 @@ header {
 /* popular collection styles end  */
 /* Featured Products styles start  */
 .featured-products {
+  padding: 100px 0;
   max-width: 1110px;
   width: 100%;
   display: flex;
@@ -186,7 +187,6 @@ header {
   align-items: center;
   gap: 100px;
   margin: 0 auto;
-  margin: 100px 0;
 }
 .featured-products p {
   width: 500px;
