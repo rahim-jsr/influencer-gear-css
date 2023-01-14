@@ -99,7 +99,9 @@ header {
 /* sponsor companies styles start */
 .sponsor-companies {
   display: flex;
+  padding: 2.3rem;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -222,22 +224,56 @@ header {
   }
   /* nav section style end */
   /* header section styles start  */
-  .header {
+  .header,
+  .featured-products {
     flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .see-more button {
+    margin-right: 16px;
   }
   .header-content {
-    text-align: center;
   }
   .header img {
     width: 202px;
     height: 190px;
   }
   /* header section styles end  */
-  footer,
-  section,
-  .popular-collection,
-  .sponsor-companies,
+  /* Sponsor companies section responsive styles start */
+  .sponsor-companies {
+    gap: 2.5rem;
+  }
+
+  /* Sponsor companies section responsive styles end */
+
+  /* popular collection responsive styles start  */
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+  /* popular collection responsive styles end  */
+
+  /* Featured products section responsive styles start  */
   .featured-products {
-    display: none;
+    padding: 0 15px;
+  }
+  .featured-title {
+    font-size: 24px;
+  }
+  .featured-products p {
+    width: unset;
+  }
+  .featured-products img {
+    width: 299px;
+    height: 188px;
+  }
+  /* Featured products section responsive styles end  */
+
+  .footer-title {
+    font-size: 16px;
+  }
+  .footer p {
+    font-size: 12px;
   }
 }
