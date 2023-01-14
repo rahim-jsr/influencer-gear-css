@@ -1,3 +1,7 @@
+:root {
+  --black: #3a3a3a;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -8,3 +12,42 @@ body {
 }
 
 /* Common CSS */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* navigation styles  */
+nav {
+  padding-top: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--black);
+}
+.brand-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.menus {
+  display: flex;
+  gap: 2.2rem;
+  align-items: center;
+}
+.menus li {
+  list-style: none;
+}
+.menus a {
+  text-decoration: none;
+  color: var(--black);
+}
+.search-icon img {
+  width: 19px;
+  height: 19px;
+}
+.shopping-cart-icon img {
+  width: 34px;
+  height: 34px;
+}
